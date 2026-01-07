@@ -199,7 +199,12 @@
           <div class="row-2">
             <div class="form-group">
               <label for="custTravelType">Travel Type</label>
-              <input id="custTravelType" type="text" placeholder="Leisure / Business">
+              <select id="custTravelType" required>
+                <option value="">Select type</option>
+                <option value="leisure">Leisure</option>
+                <option value="business">Business</option>
+                <option value="other">Other</option>
+              </select>
             </div>
             <div class="form-group">
               <label for="custPax">Number of Travellers (Pax)</label>

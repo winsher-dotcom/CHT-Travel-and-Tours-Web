@@ -99,7 +99,6 @@ document.addEventListener("DOMContentLoaded", () => {
         <td>${booking.destination || 'N/A'}</td>
         <td>${booking.packageName || 'N/A'}</td>
         <td>${formatDate(booking.startDate)}</td>
-        <td>${formatDate(booking.endDate)}</td>
         <td>
           <span class="status-badge ${getStatusClass(booking.status)}">
             ${booking.status || 'Pending'}
